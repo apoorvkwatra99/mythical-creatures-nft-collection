@@ -6,7 +6,7 @@ This Buildspace project runs on the Rinkeby Test Network. A Metamask wallet with
 
 # Backend
 
-The backend folder is where all the smart contract code lives. `contracts/MyEpicNFT.sol` contains the contract `MyEpicNFT` and has several helper functions. This contract essentially just mints NFTs to the relevant user.
+The backend folder is where all the smart contract code lives. `contracts/MyEpicNFT.sol` contains the contract `MyEpicNFT` and has several helper functions. This contract essentially just mints NFTs to the relevant user. The `scripts/run.js` script was mainly used for testing, and the `scripts/deploy.js` script was used to actually deploy the contract.
 
 # Frontend
 
