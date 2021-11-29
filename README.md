@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+# Mythical Creatures NFT Collection
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+The project can be viewed here: https://mythical-creatures-nft-collection.apoorvk.repl.co/
 
-Try running some of the following tasks:
+This Buildspace project runs on the Rinkeby Test Network. A Metamask wallet with some Ethereum on this test network is all that is needed to test it out! Once a user clicks the link, they can connect their Metamask wallet and then mint an NFT from the Mythical Creatures NFT Collection. Once the NFT has been minted, an alert will provide the user with a link to view their NFT on OpenSea. The user can also click the "NFT Collection" button to view the entire NFT collection on OpenSea.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+# Backend
+
+The backend folder is where all the smart contract code lives. `contracts/MyEpicNFT.sol` contains the contract `MyEpicNFT` and has several helper functions. This contract essentially just mints NFTs to the relevant user. The `scripts/run.js` script was mainly used for testing, and the `scripts/deploy.js` script was used to actually deploy the contract.
+
+# Frontend
+
+The frontend folder contains all the code written on Replit. It builds out the actual web page that is linked at the top of this file and calls the contract in the backend. `src/App.js` contains most of the code written here.
