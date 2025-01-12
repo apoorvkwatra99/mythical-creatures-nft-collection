@@ -1,8 +1,8 @@
 # Mythical Creatures NFT Collection
 
-The project can be viewed here: https://mythical-creatures-nft-collection.apoorvk.repl.co/
+The project can be viewed here: [https://mythical-creatures-nft-collection.apoorvk.repl.co/](https://mythical-creatures-nft-collection.replit.app/)
 
-This Buildspace project runs on the Rinkeby Test Network. A Metamask wallet with some Ethereum on this test network is all that is needed to test it out! Once a user clicks the link, they can connect their Metamask wallet and then mint an NFT from the Mythical Creatures NFT Collection. Once the NFT has been minted, an alert will provide the user with a link to view their NFT on OpenSea. The user can also click the "NFT Collection" button to view the entire NFT collection on OpenSea.
+This Buildspace project runs on the Sepolia Test Network. A Metamask wallet with some Ethereum on this test network is all that is needed to test it out! Once a user clicks the link, they can connect their Metamask wallet and then mint an NFT from the Mythical Creatures NFT Collection. Once the NFT has been minted, an alert will provide the user with a link to view their NFT on OpenSea. The user can also click the "NFT Collection" button to view the entire NFT collection on OpenSea.
 
 # Backend
 
